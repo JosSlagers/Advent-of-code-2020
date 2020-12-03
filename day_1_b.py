@@ -7,7 +7,7 @@ def finding_entries(expenses, t):
         if i < t / 3:
             low_list.append(i)
     low_list.sort()
-    low_list  # [222, 365, 473, 572, 600] 5 values for t == 2020
+    low_list
     lenght = len(low_list)
 
     # because low_list is sorted, we also know that no value higher than: t - low_list[0] - low_list[1] can be used
