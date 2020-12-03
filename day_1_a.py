@@ -16,7 +16,7 @@ def finding_entries(expenses, t):
 
     for i in expenses:
         if t - i in expenses and i != t / 2:
-            return print(f"The values are {i} and {t - i} and the answer is it's product {i * (t - i)}")
+            return print(f"The values are {i} and {t - i} and the answer is its product {i * (t - i)}")
 
 
 
