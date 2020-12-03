@@ -26,7 +26,7 @@ def finding_entries(expenses, t):
         for e in final_list:
             x = t - (e + i)
             if x in final_list:
-                return f"The values are {x}, {e} and {i} and the answer is it's product {x * i * e}"
+                return f"The values are {x}, {e} and {i} and the answer is its product {x * i * e}"
 
 
 
