@@ -1,5 +1,9 @@
 #!/usr/bin/env python
 
+# The puzzle:
+# Imagine having a list that contain all your individual expenses, and you wanted to write code that finds the two expenses on that list that add up to exactly 2020?
+# read the full puzzle description here: https://adventofcode.com/2020/day/1
+
 import numpy as np
 
 def finding_entries(expenses, t):
