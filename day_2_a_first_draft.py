@@ -46,3 +46,4 @@ for x in password_list:
         correct += 1
 print(correct)
 
+# The answer here is 414, which is correct, will rewrite the code in order for it be more readable.
